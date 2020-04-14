@@ -1,4 +1,4 @@
-# Node Auth 1 Guided Project
+# Node Auth 1 Guided Project using express-session and pass session id from server to client in cookie
 
 Guided project for **Node Auth 1** Module.
 
