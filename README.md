@@ -1,6 +1,8 @@
 # Node Session Auth 1 Guided Project using express-session and pass session id from server to client in cookie
 
 Guided project for **Node Auth 1** Module.
+Pro: server can terminate session to enforce client logout by removing session cookie.
+Con: servers can not scale up horizontally because each session cookie is tied to each particular server and can not be shared across servers.
 
 ## Prerequisites
 
